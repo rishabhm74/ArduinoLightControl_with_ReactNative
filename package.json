@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "lodash": "^4.17.20",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-bluetooth-serial": "^1.0.0-rc1"

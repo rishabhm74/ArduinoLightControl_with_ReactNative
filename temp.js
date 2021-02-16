@@ -1,12 +1,3 @@
-// import React from 'react';
-// import Init from './Init';
-// import temp from './temp';
-
-// const App = () => {
-//   return <temp />
-// }
-
-// export default App;
 import React, { Component } from 'react';
 import {
   Platform,
@@ -22,7 +13,7 @@ import {
 var _ = require('lodash');
 import BluetoothSerial from 'react-native-bluetooth-serial'
 
-export default class App extends Component {
+export default class App extends Component<{}> {
   constructor (props) {
     super(props)
     this.state = {
